@@ -27,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHARGED_AMETHYST_BLOCK);
                         entries.add(ModBlocks.CLAY_BOULDER);
                         entries.add(ModBlocks.HADUS_LEAVES);
+                        entries.add(ModBlocks.HADUS_WOOD);
 
                     })).build());
     public static void registerItemGroups() {

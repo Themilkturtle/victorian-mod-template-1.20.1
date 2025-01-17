@@ -18,6 +18,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHARGED_AMETHYST_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_BOULDER);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HADUS_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HADUS_WOOD);
 
 
     }

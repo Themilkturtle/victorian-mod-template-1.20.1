@@ -29,6 +29,8 @@ public class ModBlocks {
 
     public static final Block CLAY_BOULDER = registerBlock("clay_boulder",
             new Block(FabricBlockSettings.copyOf(Blocks.BRICKS).sounds(BlockSoundGroup.PACKED_MUD)));
+    public static final Block HADUS_WOOD = registerBlock("hadus_wood",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).sounds(BlockSoundGroup.NETHER_WART)));
 
     public static final Block HADUS_LEAVES = registerBlock("hadus_leaves",
             new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_LEAVES).nonOpaque()));

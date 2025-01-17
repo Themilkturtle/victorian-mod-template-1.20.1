@@ -18,6 +18,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.CHARGED_AMETHYST_BLOCK)
                 .add(ModBlocks.CLAY_BOULDER)
+                .add(ModBlocks.HADUS_WOOD)
 
         ;
 
