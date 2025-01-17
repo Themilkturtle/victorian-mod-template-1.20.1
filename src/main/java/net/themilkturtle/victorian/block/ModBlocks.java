@@ -27,6 +27,12 @@ public class ModBlocks {
     public static final Block CHARGED_AMETHYST_BLOCK = registerBlock("charged_amethyst_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block CLAY_BOULDER = registerBlock("clay_boulder",
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS).sounds(BlockSoundGroup.PACKED_MUD)));
+
+    public static final Block HADUS_LEAVES = registerBlock("hadus_leaves",
+            new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_LEAVES)));
+
 
 
 

@@ -1,4 +1,8 @@
 {
   "item.victorian-mod.charged_amethyst": "Charged Amethyst Shard",
-  "block.victorian-mod.charged_amethyst_block": "Charged Amethyst Block"
+  "block.victorian-mod.charged_amethyst_block": "Charged Amethyst Block",
+  "block.victorian-mod.clay_boulder": "Clay Boulder",
+  "block.victorian-mod.hadus_leaves": "Hadus Leaves",
+  "itemgroup.vic_blocks": "§5§lVictorian Blocks",
+  "itemgroup.vic_items": "§5§lVictorian Items"
 }

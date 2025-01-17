@@ -25,6 +25,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.vic_blocks"))
                     .icon(() -> new ItemStack(ModBlocks.CHARGED_AMETHYST_BLOCK)).entries(((displayContext, entries) -> {
                         entries.add(ModBlocks.CHARGED_AMETHYST_BLOCK);
+                        entries.add(ModBlocks.CLAY_BOULDER);
+                        entries.add(ModBlocks.HADUS_LEAVES);
 
                     })).build());
     public static void registerItemGroups() {

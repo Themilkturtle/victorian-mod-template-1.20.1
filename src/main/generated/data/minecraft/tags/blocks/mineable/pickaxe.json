@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "victorian-mod:charged_amethyst_block"
+    "victorian-mod:charged_amethyst_block",
+    "victorian-mod:clay_boulder"
   ]
 }

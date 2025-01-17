@@ -16,6 +16,8 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHARGED_AMETHYST_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_BOULDER);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HADUS_LEAVES);
 
 
     }

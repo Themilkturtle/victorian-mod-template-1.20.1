@@ -24,6 +24,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.CHARGED_AMETHYST_BLOCK);
+        addDrop(ModBlocks.CLAY_BOULDER);
+        addDrop(ModBlocks.HADUS_LEAVES);
 
         //ore Drops
 //        addDrop(ModBlocks.KEVIN_ORE, oreDrops(ModBlocks.KEVIN_ORE, ModItems.KEVIN_SHARD));

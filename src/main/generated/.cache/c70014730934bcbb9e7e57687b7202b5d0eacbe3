@@ -1,5 +1,11 @@
-// 1.20.1	2025-01-17T02:29:05.9941964	Victorian Mod/Model Definitions
+// 1.20.1	2025-01-16T19:58:07.3850653	Victorian Mod/Model Definitions
+b083560b8bef106ca21050c4bad49b3785d69161 assets\victorian-mod\models\item\hadus_leaves.json
+9d7176a5fef537ea5b937c0f7cb315e119bdc20b assets\victorian-mod\blockstates\hadus_leaves.json
+a0d7f32bd4db9de6394cee3f486ffecd1e89aef9 assets\victorian-mod\models\block\clay_boulder.json
+260bbe6a3bdb78fe4c7c8da8bce38da4bba3a2eb assets\victorian-mod\models\block\charged_amethyst_block.json
+502cef527b5f60fab6078ec2df4d7097262386be assets\victorian-mod\blockstates\clay_boulder.json
 54fcaf7d4e0e9390947c3776bda19006f5c508d5 assets\victorian-mod\models\item\charged_amethyst.json
 0bf71937907b3b00db0cee84e75f952547eef4b4 assets\victorian-mod\models\item\charged_amethyst_block.json
-260bbe6a3bdb78fe4c7c8da8bce38da4bba3a2eb assets\victorian-mod\models\block\charged_amethyst_block.json
 75849e5d2a40a3ed5f598ba08454f86974557dbc assets\victorian-mod\blockstates\charged_amethyst_block.json
+b4922d74fab79600b0ab7b5d15b76ec89be964cd assets\victorian-mod\models\block\hadus_leaves.json
+b67636570fefd4461aa4d9e92f02f76137b78e06 assets\victorian-mod\models\item\clay_boulder.json
