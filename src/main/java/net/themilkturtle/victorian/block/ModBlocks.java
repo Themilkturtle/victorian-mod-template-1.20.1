@@ -31,7 +31,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.BRICKS).sounds(BlockSoundGroup.PACKED_MUD)));
 
     public static final Block HADUS_LEAVES = registerBlock("hadus_leaves",
-            new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_LEAVES)));
+            new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_LEAVES).nonOpaque()));
 
 
 
