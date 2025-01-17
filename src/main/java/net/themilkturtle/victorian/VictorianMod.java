@@ -2,6 +2,7 @@ package net.themilkturtle.victorian;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.themilkturtle.victorian.block.ModBlocks;
 import net.themilkturtle.victorian.item.ModItemGroups;
 import net.themilkturtle.victorian.item.ModItems;
@@ -23,6 +24,10 @@ public class VictorianMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		StrippableBlockRegistry.register(ModBlocks.SPIRALIS_LOG, ModBlocks.STRIPPED_SPIRALIS_LOG);
+		StrippableBlockRegistry.register(ModBlocks.SPIRALIS_WOOD, ModBlocks.STRIPPED_SPIRALIS_WOOD);
+
+
 //		ModLootTableModifiers.modifyLootTables();
 
 

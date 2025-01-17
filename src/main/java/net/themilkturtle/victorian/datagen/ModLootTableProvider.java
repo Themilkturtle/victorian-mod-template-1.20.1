@@ -25,8 +25,19 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.CHARGED_AMETHYST_BLOCK);
         addDrop(ModBlocks.CLAY_BOULDER);
-        addDrop(ModBlocks.HADUS_LEAVES);
+
+        addDrop(ModBlocks.HADUS_LEAVES, leavesDrops(ModBlocks.HADUS_LEAVES, ModBlocks.CHARGED_AMETHYST_BLOCK, 0.0025f)); //TODO Change drop to Sapling
+
+        addDrop(ModBlocks.SPIRALIS_LEAVES, leavesDrops(ModBlocks.SPIRALIS_LEAVES, ModBlocks.CHARGED_AMETHYST_BLOCK, 0.0025f)); //TODO Change drop to Sapling
+
+
         addDrop(ModBlocks.HADUS_WOOD);
+
+        addDrop(ModBlocks.SPIRALIS_WOOD);
+        addDrop(ModBlocks.SPIRALIS_LOG);
+        addDrop(ModBlocks.STRIPPED_SPIRALIS_LOG);
+        addDrop(ModBlocks.STRIPPED_SPIRALIS_WOOD);
+        addDrop(ModBlocks.SPIRALIS_PLANKS);
 
         //ore Drops
 //        addDrop(ModBlocks.KEVIN_ORE, oreDrops(ModBlocks.KEVIN_ORE, ModItems.KEVIN_SHARD));
