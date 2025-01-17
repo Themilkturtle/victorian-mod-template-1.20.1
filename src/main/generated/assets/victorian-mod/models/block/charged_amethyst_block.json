@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "victorian-mod:block/charged_amethyst_block"
+  }
+}

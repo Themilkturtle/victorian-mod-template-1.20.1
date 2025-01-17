@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "victorian-mod:item/charged_amethyst"
+  }
+}
