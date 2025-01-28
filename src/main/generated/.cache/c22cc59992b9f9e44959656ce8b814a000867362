@@ -1,11 +1,11 @@
-// 1.20.1	2025-01-17T11:40:09.4700028	Victorian Mod/Block Loot Tables
+// 1.20.1	2025-01-28T02:05:12.1642023	Victorian Mod/Block Loot Tables
 4a8b5feb18281abd8756bf97efce880b42ca5f7b data\victorian-mod\loot_tables\blocks\charged_amethyst_block.json
 c35febd60fd9c50edf2da985644cb50704ae8a1e data\victorian-mod\loot_tables\blocks\spiralis_planks.json
-f23bafa20bfd76ac2a8a1fb8b137fe4d332ac17c data\victorian-mod\loot_tables\blocks\hadus_leaves.json
-42c1893728e9b9e1b98c26a5842a7e4218683876 data\victorian-mod\loot_tables\blocks\spiralis_wood.json
-4886500d50be7cf485e40cc23e3a6222c9912e13 data\victorian-mod\loot_tables\blocks\spiralis_leaves.json
-f3c76aa48e2b4082237cf2c18f346c539891e644 data\victorian-mod\loot_tables\blocks\stripped_spiralis_wood.json
 e403aef028b89843f64a344c1107ba4898cff5cb data\victorian-mod\loot_tables\blocks\spiralis_log.json
+42c1893728e9b9e1b98c26a5842a7e4218683876 data\victorian-mod\loot_tables\blocks\spiralis_wood.json
 02761e2c9f7a1d71cf7d61cb9b8b599ec7dca61d data\victorian-mod\loot_tables\blocks\hadus_wood.json
 29440bfbdb9dd297dada599d900ce3c00b8cd7cc data\victorian-mod\loot_tables\blocks\clay_boulder.json
 ca88d6f3dd7c6302b01e42bfd79ea8c7fa6747a7 data\victorian-mod\loot_tables\blocks\stripped_spiralis_log.json
+4886500d50be7cf485e40cc23e3a6222c9912e13 data\victorian-mod\loot_tables\blocks\spiralis_leaves.json
+f23bafa20bfd76ac2a8a1fb8b137fe4d332ac17c data\victorian-mod\loot_tables\blocks\hadus_leaves.json
+f3c76aa48e2b4082237cf2c18f346c539891e644 data\victorian-mod\loot_tables\blocks\stripped_spiralis_wood.json

@@ -33,8 +33,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPIRALIS_PLANKS);
                         entries.add(ModBlocks.STRIPPED_SPIRALIS_LOG);
                         entries.add(ModBlocks.STRIPPED_SPIRALIS_WOOD);
-                        entries.add(ModBlocks.HANGING_SPIRALIS_SIGN);
-                        entries.add(ModBlocks.SPIRALIS_SIGN);
 
 
                         entries.add(ModBlocks.HADUS_WOOD);

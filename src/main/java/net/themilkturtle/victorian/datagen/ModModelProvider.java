@@ -23,9 +23,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SPIRALIS_LEAVES);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SPIRALIS_PLANKS);
 
-        BlockStateModelGenerator.BlockTexturePool spiralis_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SPIRALIS_PLANKS);
-        spiralis_pool.family(ModBlocks.SPIRALIS_FAMILY);
-
 
         blockStateModelGenerator.registerLog(ModBlocks.SPIRALIS_LOG).log(ModBlocks.SPIRALIS_LOG).wood(ModBlocks.SPIRALIS_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_SPIRALIS_LOG).log(ModBlocks.STRIPPED_SPIRALIS_LOG).wood(ModBlocks.STRIPPED_SPIRALIS_WOOD);
@@ -37,7 +34,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CHARGED_AMETHYST, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.HANGING_SPIRALIS_SIGN, Models.GENERATED);
 
 
 

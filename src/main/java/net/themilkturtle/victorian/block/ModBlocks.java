@@ -51,36 +51,11 @@ public class ModBlocks {
     public static final Block STRIPPED_SPIRALIS_LOG = registerBlock("stripped_spiralis_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_SPRUCE_LOG)));
 
-        // Texture
-        public static final Identifier SPIRALIS_SIGN_TEXTURE = new Identifier(VictorianMod.MOD_ID, "entity/signs/spiralis");
-    public static final Identifier SPIRALIS_HANGING_SIGN_TEXTURE = new Identifier(VictorianMod.MOD_ID, "entity/signs/hanging/spiralis");
-    public static final Identifier SPIRALIS_HANGING_GUI_SIGN_TEXTURE = new Identifier(VictorianMod.MOD_ID, "textures/gui/hanging_signs/spiralis");
-
-    public static final Block SPIRALIS_STANDING_SIGN = Registry.register(Registries.BLOCK, new Identifier(VictorianMod.MOD_ID, "spiralis_standing_sign"),
-            new TerraformSignBlock(SPIRALIS_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_SIGN)));
-    public static final Block WALL_SPIRALIS_STANDING_SIGN = Registry.register(Registries.BLOCK, new Identifier(VictorianMod.MOD_ID, "spiralis_wall_sign"),
-            new TerraformWallSignBlock(SPIRALIS_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN)));
-    public static final Block HANGING_SPIRALIS_SIGN = Registry.register(Registries.BLOCK, new Identifier(VictorianMod.MOD_ID, "spiralis_hanging_sign"),
-            new TerraformHangingSignBlock(SPIRALIS_HANGING_SIGN_TEXTURE,SPIRALIS_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN)));
-    public static final Block WALL_HANGING_SPIRALIS_SIGN = Registry.register(Registries.BLOCK, new Identifier(VictorianMod.MOD_ID, "spiralis_wall_hanging_sign"),
-            new TerraformWallHangingSignBlock(SPIRALIS_HANGING_SIGN_TEXTURE,SPIRALIS_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN)));
-
-    public static final BlockFamily SPIRALIS_FAMILY = BlockFamilies.register(ModBlocks.SPIRALIS_PLANKS)
-            .sign(ModBlocks.SPIRALIS_STANDING_SIGN,ModBlocks.WALL_SPIRALIS_STANDING_SIGN)
-            .group("wooden").unlockCriterionName("has_planks").build();
-
     public static final Block SPIRALIS_PLANKS = registerBlock("spiralis_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS)));
 
     public static final Block SPIRALIS_LEAVES = registerBlock("spiralis_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_LEAVES).nonOpaque()));
-
-
-
-
-
-
-
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
