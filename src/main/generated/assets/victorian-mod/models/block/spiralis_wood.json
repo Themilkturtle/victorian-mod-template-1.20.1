@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "victorian-mod:block/spiralis_log",
+    "side": "victorian-mod:block/spiralis_log"
+  }
+}
