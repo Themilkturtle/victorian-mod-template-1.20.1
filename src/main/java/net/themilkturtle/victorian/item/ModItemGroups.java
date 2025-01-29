@@ -33,9 +33,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPIRALIS_PLANKS);
                         entries.add(ModBlocks.STRIPPED_SPIRALIS_LOG);
                         entries.add(ModBlocks.STRIPPED_SPIRALIS_WOOD);
-
-
+                        entries.add(ModBlocks.HADUS_LOG);
                         entries.add(ModBlocks.HADUS_WOOD);
+
+                        entries.add(ModBlocks.STRIPPED_HADUS_LOG);
+                        entries.add(ModBlocks.STRIPPED_HADUS_WOOD);
+
 
                     })).build());
     public static void registerItemGroups() {

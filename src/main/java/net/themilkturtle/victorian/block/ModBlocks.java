@@ -34,9 +34,18 @@ public class ModBlocks {
     public static final Block CLAY_BOULDER = registerBlock("clay_boulder",
             new Block(FabricBlockSettings.copyOf(Blocks.BRICKS).sounds(BlockSoundGroup.PACKED_MUD)));
 
+
     // HADUS WOOD TYPE GROUP
+    public static final Block HADUS_LOG = registerBlock("hadus_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_LOG).sounds(BlockSoundGroup.NETHER_WART)));
     public static final Block HADUS_WOOD = registerBlock("hadus_wood",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).sounds(BlockSoundGroup.NETHER_WART)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_WOOD).sounds(BlockSoundGroup.NETHER_WART)));
+    public static final Block STRIPPED_HADUS_WOOD = registerBlock("stripped_hadus_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_SPRUCE_WOOD).sounds(BlockSoundGroup.NETHER_WART)));
+    public static final Block STRIPPED_HADUS_LOG = registerBlock("stripped_hadus_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_SPRUCE_LOG).sounds(BlockSoundGroup.NETHER_WART)));
+
+
     public static final Block HADUS_LEAVES = registerBlock("hadus_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_LEAVES).nonOpaque()));
 

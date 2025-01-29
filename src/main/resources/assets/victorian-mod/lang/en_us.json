@@ -3,12 +3,16 @@
   "block.victorian-mod.charged_amethyst_block": "Charged Amethyst Block",
   "block.victorian-mod.clay_boulder": "Clay Boulder",
   "block.victorian-mod.hadus_leaves": "Hadus Leaves",
+  "block.victorian-mod.hadus_log": "Hadus Log",
+  "block.victorian-mod.stripped_hadus_wood": "Stripped Hadus wood",
+  "block.victorian-mod.stripped_hadus_log": "Stripped Hadus log",
   "block.victorian-mod.spiralis_log": "Spiralis Log",
   "block.victorian-mod.stripped_spiralis_log": "Stripped Spiralis Log",
   "block.victorian-mod.spiralis_wood": "Spiralis Wood",
   "block.victorian-mod.stripped_spiralis_wood": "Stripped Spiralis Wood",
   "block.victorian-mod.spiralis_planks": "Spiralis Planks",
+  "block.victorian-mod.spiralis_leaves": "Spiralis Leaves",
   "block.victorian-mod.hadus_wood": "Hadus Wood",
-  "itemgroup.vic_blocks": "§5§lVictorian Blocks",
-  "itemgroup.vic_items": "§5§lVictorian Items"
+  "itemgroup.vic_blocks": "Victorian Blocks",
+  "itemgroup.vic_items": "Victorian Items"
 }

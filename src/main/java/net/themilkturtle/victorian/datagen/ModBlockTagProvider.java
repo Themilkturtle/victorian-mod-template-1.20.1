@@ -19,7 +19,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.CHARGED_AMETHYST_BLOCK)
                 .add(ModBlocks.CLAY_BOULDER)
-                .add(ModBlocks.HADUS_WOOD)
 
 
         ;
@@ -35,7 +34,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SPIRALIS_LOG)
                 .add(ModBlocks.SPIRALIS_WOOD)
                 .add(ModBlocks.STRIPPED_SPIRALIS_LOG)
-                .add(ModBlocks.STRIPPED_SPIRALIS_WOOD);
+                .add(ModBlocks.STRIPPED_SPIRALIS_WOOD)
+                .add(ModBlocks.HADUS_LOG)
+
+                .add(ModBlocks.HADUS_WOOD)
+                .add(ModBlocks.STRIPPED_HADUS_LOG)
+                .add(ModBlocks.STRIPPED_HADUS_WOOD);
     }
 
 }

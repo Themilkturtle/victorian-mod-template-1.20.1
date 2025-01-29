@@ -23,7 +23,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.SPIRALIS_LOG.asItem())
                 .add(ModBlocks.SPIRALIS_WOOD.asItem())
                 .add(ModBlocks.STRIPPED_SPIRALIS_LOG.asItem())
-                .add(ModBlocks.STRIPPED_SPIRALIS_WOOD.asItem());
+                .add(ModBlocks.STRIPPED_SPIRALIS_WOOD.asItem())
+                .add(ModBlocks.HADUS_LOG.asItem())
+                .add(ModBlocks.HADUS_WOOD.asItem())
+
+                .add(ModBlocks.STRIPPED_HADUS_LOG.asItem())
+                .add(ModBlocks.STRIPPED_HADUS_WOOD.asItem());
 
     }
 }

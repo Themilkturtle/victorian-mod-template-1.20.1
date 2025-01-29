@@ -26,6 +26,8 @@ public class VictorianMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		StrippableBlockRegistry.register(ModBlocks.SPIRALIS_LOG, ModBlocks.STRIPPED_SPIRALIS_LOG);
 		StrippableBlockRegistry.register(ModBlocks.SPIRALIS_WOOD, ModBlocks.STRIPPED_SPIRALIS_WOOD);
+		StrippableBlockRegistry.register(ModBlocks.HADUS_LOG, ModBlocks.STRIPPED_HADUS_LOG);
+		StrippableBlockRegistry.register(ModBlocks.HADUS_WOOD, ModBlocks.STRIPPED_HADUS_WOOD);
 
 
 //		ModLootTableModifiers.modifyLootTables();

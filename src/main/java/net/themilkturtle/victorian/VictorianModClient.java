@@ -11,5 +11,6 @@ public class VictorianModClient implements ClientModInitializer {
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HADUS_LEAVES, RenderLayer.getCutout());
 
+
     }
 }

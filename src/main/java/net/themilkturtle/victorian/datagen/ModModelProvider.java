@@ -17,8 +17,8 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHARGED_AMETHYST_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_BOULDER);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HADUS_LEAVES);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HADUS_WOOD);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SPIRALIS_LEAVES);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SPIRALIS_PLANKS);
@@ -26,6 +26,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerLog(ModBlocks.SPIRALIS_LOG).log(ModBlocks.SPIRALIS_LOG).wood(ModBlocks.SPIRALIS_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_SPIRALIS_LOG).log(ModBlocks.STRIPPED_SPIRALIS_LOG).wood(ModBlocks.STRIPPED_SPIRALIS_WOOD);
+
+        blockStateModelGenerator.registerLog(ModBlocks.HADUS_LOG).log(ModBlocks.HADUS_LOG).wood(ModBlocks.HADUS_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_HADUS_LOG).log(ModBlocks.STRIPPED_HADUS_LOG).wood(ModBlocks.STRIPPED_HADUS_WOOD);
 
 
     }

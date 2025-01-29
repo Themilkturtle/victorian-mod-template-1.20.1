@@ -4,6 +4,10 @@
     "victorian-mod:spiralis_log",
     "victorian-mod:spiralis_wood",
     "victorian-mod:stripped_spiralis_log",
-    "victorian-mod:stripped_spiralis_wood"
+    "victorian-mod:stripped_spiralis_wood",
+    "victorian-mod:hadus_log",
+    "victorian-mod:hadus_wood",
+    "victorian-mod:stripped_hadus_log",
+    "victorian-mod:stripped_hadus_wood"
   ]
 }
